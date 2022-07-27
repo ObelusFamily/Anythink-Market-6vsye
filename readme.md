@@ -27,4 +27,4 @@ docker-compose up
 ```
 
 If everything went well, you should have a frontend, backend and database running, and you should
-be able to connect to `http://localhost:3001/api/ping`.
+be able to connect to `http://localhost:3000/api/ping`.
