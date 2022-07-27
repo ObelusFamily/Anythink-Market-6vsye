@@ -10,4 +10,21 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+To setup your environment, you will need first need to setup [Docker]() with [Docker Compose]().
+To install it, follow the official docker installation [guide]().
+
+To verify that everything is ready, run the following commands on your terminal:
+
+```sh
+docker -v
+docker-compose -v
+```
+
+If everything is ready, then you can spin up your environment by running:
+
+```sh
+docker-compose up
+```
+
+If everything went well, you should have a frontend, backend and database running, and you should
+be able to connect to `http://localhost:3001/api/ping`.
